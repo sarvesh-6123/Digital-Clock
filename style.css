@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#clock {
+    height: 12em;
+    width: 25em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    box-shadow: 0 0 5px 2px yellowgreen;
+    color: aliceblue;
+}
+
+#clock:hover {
+    box-shadow: 0 0 5px 6px yellowgreen;
+}
+
+#time {
+    font-family: "Bevan", serif;
+    font-size: 3em;
+}
+
+#date {
+    font-family: "Black Ops One", system-ui;
+    font-size: 1.2em;
+}
